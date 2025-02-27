@@ -8,7 +8,7 @@ export const connect = async () => {
   }
   try {
     await mongoose.connect(process.env.MONGODB_URI, {
-      dbName: 'movie-app',
+      dbName: 'mover-movie',
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
