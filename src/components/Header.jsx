@@ -22,10 +22,10 @@ export default function Header(){
         </li>
       </ul>
       <Link href={'/'}>
-        <span className="text-2xl font-bold bg-red-500 py-1 px-2 rounded-lg">
+        <span className="text-2xl text-white font-bold bg-red-300 py-1 px-2 rounded-lg">
           Movie
         </span>
-        <span className="text-2xl font-bold bg-red-500 py-1 px-2 rounded-lg">
+        <span className="text-2xl text-white font-bold bg-red-300 py-1 px-2 rounded-lg">
           APP
         </span>
       </Link>

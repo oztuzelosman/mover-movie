@@ -65,7 +65,7 @@ export default function AddToFav({
     <div>
       <button
         onClick={handleFavClick}
-        className={`p-2 rounded  ${isFav ? 'bg-red-300 dark:bg-red-600' : 'bg-gray-300 dark:bg-gray-600'}`}
+        className={`p-2 rounded  ${isFav ? 'bg-red-300 dark:bg-red-600' : 'bg-gray-300'}`}
         disabled={isLoading}
       >
         {isLoading
