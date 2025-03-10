@@ -7,7 +7,7 @@ export default function NavbarItem({ title, param }) {
   return (
     <div>
       <Link
-        className={`hover:text-amber-600 font-semibold ${
+        className={`hover:text-red-600 font-semibold ${
           genre === param
             ? 'underline underline-offset-8 decoration-4 decoration-red-500 rounded-lg'
             : ''
